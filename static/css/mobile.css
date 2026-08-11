@@ -1,0 +1,216 @@
+
+@media screen and (max-width: 576px) {
+
+    .containerHome {
+        margin-top: 40px;
+    }
+
+    .pagDestaque {
+        display: none!important;
+    }
+
+    #main-container .conteinerPaginacao .paginacao input {
+        font-size: 13px;
+        min-width: 30px;
+        height: 30px!important;
+    }
+
+    .display-mobile {
+        display: block!important;
+    }
+
+    .display-desktop {
+        display: none!important;
+    }
+
+    #modal {
+        display: flex;
+    }
+
+    #head-container #main-menu ul li:hover #sub-menu {
+        margin-top: 20px;
+    }
+
+    #head-container #main-menu ul li {
+        margin-left: -4px;
+    }
+
+    #head-container #main-menu {
+        align-items: center;
+    }
+
+    #head-container #main-menu #change-hand {
+        background: #1b1b1b;
+        border: 0;
+        margin-right: 10px;
+    }
+
+    #head-container #main-menu #change-hand img {
+        max-width: 30px;
+        height: auto;
+    }
+
+    #head-container #main-menu ul li:hover #sub-menu #sub-menu-ul li {
+        margin-left: 10px;
+    }
+
+    /* HAMBURGER MENU */
+    #head-container #main-menu #hamburg-menu {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    #head-container #main-menu #hamburg-menu:before {
+        content: ' ';
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        position: absolute;
+        margin-top: -12px;
+    }
+
+    #head-container #main-menu #hamburg-menu:after {
+        content: ' ';
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        position: absolute;
+        margin-top: 12px;
+    }
+
+     #head-container #main-menu #close-hamburg-menu {
+        display: block;
+        color: #ffffff;
+        line-height: 0;
+        font-size: 31px;
+    }
+
+    #brand-name {
+        align-items: flex-end;
+        margin-bottom: 15px;
+    }
+
+    #brand-name img {
+        max-width: 200px;
+    }
+
+    #brand-name .dark-mode {
+        display: block;
+    }
+
+    #head-container #main-menu ul li:hover #sub-menu #sub-menu-ul {
+        -webkit-columns: auto;
+        -moz-columns: auto;
+        columns: auto;
+        overflow-y: scroll;
+    }
+
+    .darkModeView #breadcrumb-container .category-title {
+        font-size: 26px;
+    }
+
+    .whiteModeView #breadcrumb-container .category-title {
+        font-size: 26px;
+    }
+
+    #main-container #container .thumb-img a .imgThumb {
+        width: 100%;
+        min-width: auto!important;
+    }
+
+    #main-container #container .thumb-img {
+        align-items: normal;
+        margin-bottom: 20px;
+    }
+
+    #footer-container .menu-container {
+        display: block;
+    }
+
+    #footer-container .menu-container .menu-rodape {
+        text-align: center!important;
+    }
+
+    #main-container #container .thumb-img .videoName {
+        white-space: inherit;
+    }
+
+    /* MÃO DIREITA */
+    .maoDireitaClass #hand-left {
+        opacity: 0.5;
+    }
+
+    .maoDireitaClass #sub-menu-ul {
+        text-align: right!important;
+    }
+
+    .maoDireitaClass #main-menu.sticky {
+        position: fixed!important;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 99;
+        background: #1b1b1b;
+    }
+
+    .maoDireitaClass #main-container #paginacao {
+        position: fixed;
+        z-index: 8;
+        right: 0;
+        top: 40%;
+        bottom: 0;
+        display: block;
+    }
+
+    .maoDireitaClass #main-container #paginacao form {
+        margin-bottom: 5px;
+    }
+
+    .maoDireitaClass #head-container #main-menu .menu-genero {
+        flex-direction: row-reverse!important;
+    }
+
+    .maoDireitaClass #main-menu {
+        flex-direction: row-reverse!important;
+        justify-content: normal!important;
+    }
+
+    /* MÃO ESQUERDA */
+    .maoEsquerdaClass #hand-right {
+        opacity: 0.5;
+    }
+
+    .maoEsquerdaClass #main-menu.sticky {
+        position: fixed!important;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        background: #1b1b1b;
+        justify-content: normal!important;
+    }
+
+    .maoEsquerdaClass #main-container #paginacao {
+        position: fixed;
+        z-index: 8;
+        left: 0;
+        top: 40%;
+        bottom: 0;
+        display: block;
+    }
+
+    .maoEsquerdaClass #main-container #paginacao form {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #main-container .conteinerPaginacao .paginacao input {
+        font-size: 11px;
+    }
+}

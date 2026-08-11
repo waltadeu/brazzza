@@ -1,0 +1,35 @@
+body {
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    display: block;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.g-recaptcha {
+    margin-top: 15px;
+}
+
+.send {
+    background:#23488d;
+    color:#ffffff;
+    border: 0px;
+}
