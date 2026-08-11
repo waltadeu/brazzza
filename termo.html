@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PORNOGRAFIA TOTALMENTE GRÁTIS!">
+    <meta name="keywords" content="Sexo, Porno, Sex, Asiaticas, putas, loiras, amadoras, amateurs, cuckold, putaria, morena, novinhas, pornobrx, pornografia, cu, buceta, pau, pinto grande, gay, hetero">
+    <meta name="author" content="PornoBRX">
+    <title>Porno BRX</title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/images/icon-apple.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicon-32.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicon-16.jpg">
+
+    <!-- META OPEN GRAPH -->
+    <meta property="og:title" content="PornBRX" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://pornobrx.com" />
+    <meta property="og:description" content="PORNOGRAFIA TOTALMENTE GRÁTIS!" />
+    <meta property="og:image" content="https://pornobrx.com/static/images/social-img.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:image:alt" content="PORNOGRAFIA TOTALMENTE GRÁTIS! PORNOBRX.COM" />
+
+    <!-- PORN BRX CSS STYLE -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/porn-grid.css">
+    <link rel="stylesheet" href="../static/css/mobile.css">
+
+    <!-- CUSTOM CARACTERE ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+    <!-- GOOGLE ANALYTICS -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-82837772-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-82837772-2');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MSDFGW6');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body class="darkModeView">
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSDFGW6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="modal" style="display:none">
+        <div class="content-modal">
+            <button type="button" class="close-modal" id="close-modal">X</button>
+            <h2>Selecione um lado</h2>
+            <p>Para melhor navegação, escolha qual mão está segurando o smartphone.</p>
+            <div class="porn-grid-container">
+                <a href="javascript:void(0)" id="hand-left">
+                    <img src="../static/images/hand-left.png"/>
+                    <span>Esquerda</span>
+                </a>
+                <a href="javascript:void(0)" id="hand-right">
+                    <img src="../static/images/hand-right.png"/>
+                    <span>Direita</span>
+                </a>
+            </div>
+            <a href="javascript:void(0)" id="remove-hand">
+                <span>Navegação sem melhoria.</span>
+            </a>
+        </div>
+        <span class="bg-modal"></span>
+    </div>
+    <div id="head-container">
+        <div id="brand-name" class="porn-grid-container">
+            <div class="porn-grid-4 porn-grid-xs-2">
+
+                <a href="/?hetero/" id="link-logo-default">
+                    <img src="../static/images/logo.png" id="logo-default"/>
+                </a>
+                <a href="/?gay/" id="link-logo-lgbt">
+                    <img src="../static/images/logo-lgbt.png" id="logo-lgbt"/>
+                </a>
+
+                <div class="search-container porn-grid-4 porn-grid-xs-2">
+                    <form action="realizaBusca" method='post'>
+                        <input type="text" placeholder="Realizar busca em 320.000 vídeos..." id="campoBusca" name="campoBusca">
+                        <input type='hidden' id="campoGenero" name="campoGenero" type="text"/>
+                        <button id="botaoBusca" onclick="validaTextoBuscado()" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <span id="textoErro"></span>
+                </div>
+            </div>
+
+            <div class="dark-mode porn-grid-1">
+                <p class="display-desktop">Dark Mode: </p>
+                <p class="display-mobile">Dark: </p>
+                <label class="switch">
+                    <input type="checkbox" id="dark-mode-btn" onchange="alteraCorErro()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <nav id="main-menu" class="porn-grid-container">
+            <ul id="main-menu-ul">
+                <li>
+                    <a href="/?hetero/" id="inicio-default" class="display-desktop">Início</a>
+                    <a href="/?gay/" id="inicio-lgbt" class="display-desktop">Início</a>
+                </li>
+                <li><a href="javascript:void(0);" class="display-desktop">Todas as Categorias</a>
+                    <a href="javascript:void(0);" class="display-mobile">
+                        <span id="hamburg-menu"></span>
+                        <span id="close-hamburg-menu">X</span>
+                    </a>
+                    <nav id="sub-menu">
+                        <ul id="sub-menu-ul"></ul>
+                    </nav>
+                </li>
+            </ul>
+
+            <div class="menu-genero">
+                <div class="display-mobile">
+                    <button type="button" id="change-hand">
+                        <img src="../static/images/hand-icon.png"/>
+                    </button>
+                </div>
+                <div class="check-genero">
+                    <p>Hétero: </p> <input type="checkbox" id="genero-hetero" value="genero-hetero" onclick="generoHetero(true);">
+                </div>
+                <div class="check-genero">
+                    <p>Gay: </p> <input type="checkbox" id="genero-gay" value="genero-gay" onclick="generoGay(true);">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="main-container" class="porn-grid-container">
+        <div id="breadcrumb-container"></div>
+        <div id="container" class="termo">
+            <p><br/><br/><br/><strong>O <span>PornoBRX</span> contém informações, links, imagens e vídeos de material adulto explícito. Caso você seja menor de 18 anos, ou tal material é ofensivo para você ou é ilegal ter acesso a tal material em sua comunidade por favor não continue.</strong>
+            <br/><br/>Antes de continuar leia atentamente os termos a seguir:
+            <br/><br/>Este site contém materiais com restrição de idade. Se tiver menos de 18 anos, ou for menor de idade no local a partir do qual acede a este site, não tem autorização ou permissão para entrar neste site ou aceder a qualquer um dos seus materiais. Se tiver mais de 18 anos ou se for maior de idade no local a partir do qual acede a este site, ao entrar no site, concorda em cumprir todos os TERMOS E CONDIÇÕES. Também reconhece e concorda que não se ofende com a nudez e as representações explícitas de atividade sexual.
+            <br/><br/>Ao entrar neste site, concorda com tudo o anteriormente referido e certifica, sob pena de falso testemunho, que é um adulto.</p>
+        </div>
+
+        <!-- BANNER FOOTER DESKTOP -->
+         <div class="container-ads ads-desktop-footer flex-ads display-desktop">
+            <iframe src="//go.eroadvertising.com/banner.go?spaceid=5139265" frameborder="0" width="120" height="90" scrolling="no"></iframe>
+            <iframe src="//go.eroadvertising.com/banner.go?spaceid=5139217" frameborder="0" width="728" height="90" scrolling="no"></iframe>
+            <iframe src="//go.eroadvertising.com/banner.go?spaceid=5139266" frameborder="0" width="120" height="90" scrolling="no"></iframe>
+        </div>
+
+        <!-- BANNER FOOTER MOBILE -->
+        <div class="container-ads ads-desktop-footer display-mobile">       
+            <iframe src="//go.eroadvertising.com/banner.go?spaceid=5139219" frameborder="0" width="300" height="100" scrolling="no"></iframe>
+        </div>
+        
+    </div>
+    <!-- FOOTER -->
+    <div id="footer-container">
+        <div>
+            <div id="logo-container">
+                <img src="../static/images/logo-rodape.png" />
+            </div>
+            <div class="menu-container porn-grid-container">
+                <div class="menu-rodape">
+                    <h2>Informações</h2>
+                    <ul id="linkTermo">
+                    </ul>
+                </div>
+                <div class="menu-rodape">
+                    <h2>Trabalhe Conosco</h2>
+                    <!-- <ul id="linkContatoForm"></ul> -->
+                    <ul>
+                        <li>
+                            <a href="maito:suporte@pornbrx.com">Anuncie conosco</a>
+                        </li>
+                        <li>
+                            <a href="mailto:contato@pornbrx.com">contato@pornbrx.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyright menu-rodape">
+                    <h2>Social</h2>
+                    <div class="social">
+                        <a href="https://www.facebook.com/Digital-Whatever-Agency-104333397955495/" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com/dw.agency" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/DigitalWhateve2" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <p>© PornoBrX.com, 2020</p>
+                    </div>
+                </div>
+                <div class="copyright menu-rodape">
+                    <div id="DW">
+                        <a href="https://instagram.com/dw.agency" target="_blank">
+                            <img src="../static/images/DW.png"/>
+                        </a>
+                        <p>Powered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../static/js/termo.js"></script>
+    <script type="text/javascript" src="../static/js/script.js"></script>
+    <script type="text/javascript" src="../static/js/assets.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSDFGW6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>
